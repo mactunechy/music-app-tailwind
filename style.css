@@ -1,0 +1,29 @@
+:root{
+    --primary-color:'#f0be59';
+    --accent-color:'#ff4f86'
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    background: rgb(240,190,89);
+    background: linear-gradient(90deg, rgba(240,190,89,1) 0%, rgba(255,79,134,1) 100%); 
+}
+
+.cover-image {
+    object-fit: cover;
+}
+.user-card {
+    background:  url('images/img10.jpg') no-repeat center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+.text-shadow{
+    text-shadow: 1px 1px #666;
+}
